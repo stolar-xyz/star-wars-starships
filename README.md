@@ -1,6 +1,7 @@
 # Libraries Used
 
 - gh-pages
+- styled-components
 
 ## Getting Started with Create React App
 
