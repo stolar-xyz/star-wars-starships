@@ -2,6 +2,7 @@
 
 - gh-pages
 - styled-components
+- styled-normalize
 
 ## Getting Started with Create React App
 
