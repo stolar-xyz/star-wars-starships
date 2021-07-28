@@ -1,18 +1,19 @@
+import { Heading, ItemsCounter, StyledNavigation, Wrapper } from './styled';
 import starWarsLogo from '../../../assets/svgs/starWarsLogo.svg';
 import shoppingCart from '../../../assets/svgs/shoppingCart.svg';
 
 const Navigation = () => (
-  <nav>
+  <StyledNavigation>
     <header>
-      <h1>
+      <Heading>
         <img alt='Star Wars' src={starWarsLogo} />
-      </h1>
+      </Heading>
     </header>
-    <div>
+    <Wrapper>
       <img alt='Shopping cart' src={shoppingCart} />
-      <span>1</span>
-    </div>
-  </nav>
+      <ItemsCounter>1</ItemsCounter>
+    </Wrapper>
+  </StyledNavigation>
 );
 
 export default Navigation;
