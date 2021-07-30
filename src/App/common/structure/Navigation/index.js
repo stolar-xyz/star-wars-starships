@@ -6,11 +6,11 @@ const Navigation = ({ count }) => (
   <StyledNavigation>
     <header>
       <Heading>
-        <img alt='Star Wars' src={starWarsLogo} />
+        <img alt='Star Wars' src={starWarsLogo} width='160' height='80' />
       </Heading>
     </header>
     <Wrapper>
-      <img alt='Shopping cart' src={shoppingCart} />
+      <img alt='Shopping cart' src={shoppingCart} width='52' height='52' />
       {count && <ItemsCounter>{count > 10 ? '+10' : count}</ItemsCounter>}
     </Wrapper>
   </StyledNavigation>
