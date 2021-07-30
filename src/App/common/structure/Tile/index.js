@@ -12,6 +12,10 @@ import {
 } from './styled';
 
 const Tile = () => {
+  const onFormSubmit = event => {
+    event.preventDefault();
+  };
+
   return (
     <StyledTile>
       <div>
@@ -26,7 +30,7 @@ const Tile = () => {
           <Information>Price</Information>
           <Price>100.000.000.000</Price>
         </Wrapper>
-        <form>
+        <form onSubmit={onFormSubmit}>
           <CountButtons>
             <CountButton title='Decrease' disabled>
               -
