@@ -1,28 +1,43 @@
+import {
+  AddCartButton,
+  Name,
+  Price,
+  ManufacturersList,
+  StyledTile,
+  Count,
+  CountButton,
+  CountButtons,
+  Wrapper,
+  Information,
+} from './styled';
+
 const Tile = () => {
   return (
-    <div>
+    <StyledTile>
       <div>
-        <h3>Millennium Falcon</h3>
-        <h4>Manufacturers</h4>
-        <ul>
+        <Name>Millennium Falcon</Name>
+        <Information>Manufacturers</Information>
+        <ManufacturersList>
           <li>Imperial Department of Military</li>
-        </ul>
+        </ManufacturersList>
       </div>
       <div>
-        <div>
-          <h4>Price</h4>
-          <span>100.000.000.000</span>
-        </div>
+        <Wrapper>
+          <Information>Price</Information>
+          <Price>100.000.000.000</Price>
+        </Wrapper>
         <form>
-          <div>
-            <button title='Decrease'>-</button>
-            <input type='number' min='1' placeholder='Quantity' />
-            <button title='Increase'>+</button>
-          </div>
-          <button title='Add to shopping cart'>Add to cart</button>
+          <CountButtons>
+            <CountButton title='Decrease' disabled>
+              -
+            </CountButton>
+            <Count type='number' min='1' placeholder='Quantity' />
+            <CountButton title='Increase'>+</CountButton>
+          </CountButtons>
+          <AddCartButton title='Add to shopping cart'>Add to cart</AddCartButton>
         </form>
       </div>
-    </div>
+    </StyledTile>
   );
 };
 
