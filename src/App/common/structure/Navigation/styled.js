@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const StyledNavigation = styled.nav`
   display: flex;
@@ -16,9 +16,24 @@ export const Heading = styled.h1`
 `;
 
 export const Wrapper = styled.div`
-  position: absolute;
-  right: 25px;
+  position: ${({ scrollCart }) => (scrollCart ? 'fixed' : 'absolute')};
+  right: ${({ scrollCart }) => (scrollCart ? '50px' : '25px')};
+  transition: ${({ scrollCart }) =>
+    scrollCart ? ' background-color 0.5s, right 0.5s' : 'right 0.5s'};
   cursor: pointer;
+
+  ${({ scrollCart }) =>
+    scrollCart &&
+    css`
+      bottom: 50px;
+      width: 80px;
+      height: 80px;
+      display: grid;
+      place-items: center;
+      background: #ffffff;
+      border-radius: 10px;
+      z-index: 1;
+    `}
 `;
 
 export const ItemsCounter = styled.span`
@@ -29,8 +44,8 @@ export const ItemsCounter = styled.span`
   width: 23px;
   height: 23px;
   position: absolute;
-  top: 30px;
-  right: 25px;
+  top: ${({ scrollCart }) => (scrollCart ? '45px' : '30px')};
+  right: ${({ scrollCart }) => (scrollCart ? '40px' : '25px')};
   font-size: 12px;
   font-weight: 700;
 `;
