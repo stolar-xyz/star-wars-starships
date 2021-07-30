@@ -9,6 +9,7 @@ export const StyledNavigation = styled.nav`
   max-width: 1368px;
   position: relative;
   border-bottom: 1px solid #cccccc;
+  color: #ffffff;
 `;
 
 export const Heading = styled.h1`
@@ -40,6 +41,7 @@ export const ItemsCounter = styled.span`
   display: grid;
   place-items: center;
   background: #ffc500;
+  color: #000000;
   border-radius: 50%;
   width: 23px;
   height: 23px;
