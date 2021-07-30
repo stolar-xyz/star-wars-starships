@@ -21,9 +21,13 @@ const Navigation = ({ count }) => {
           <img alt='Star Wars' src={starWarsLogo} width='160' height='80' />
         </Heading>
       </header>
-      <Wrapper>
+      <Wrapper scrollCart={scrollCart}>
         <img alt='Shopping cart' src={shoppingCart} width='52' height='52' />
-        {count && <ItemsCounter>{count > 10 ? '+10' : count}</ItemsCounter>}
+        {count && (
+          <ItemsCounter scrollCart={scrollCart}>
+            {count > 10 ? '+10' : count}
+          </ItemsCounter>
+        )}
       </Wrapper>
     </StyledNavigation>
   );
