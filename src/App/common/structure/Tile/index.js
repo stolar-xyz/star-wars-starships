@@ -1,7 +1,7 @@
 import {
   AddCartButton,
   Name,
-  Price,
+  Cost,
   ManufacturersList,
   StyledTile,
   Count,
@@ -27,8 +27,8 @@ const Tile = () => {
       </div>
       <div>
         <Wrapper>
-          <Information>Price</Information>
-          <Price>100.000.000.000</Price>
+          <Information>Cost</Information>
+          <Cost>100.000.000.000</Cost>
         </Wrapper>
         <form onSubmit={onFormSubmit}>
           <CountButtons>

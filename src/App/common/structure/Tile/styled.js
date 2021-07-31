@@ -38,7 +38,7 @@ export const ManufacturersList = styled.ul`
   }
 `;
 
-export const Price = styled.span`
+export const Cost = styled.span`
   font-size: 24px;
 `;
 
