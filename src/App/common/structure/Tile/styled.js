@@ -9,7 +9,6 @@ export const StyledTile = styled.li`
   justify-content: space-between;
   padding: 18px;
   min-height: 425px;
-  text-align: center;
   transition: transform 0.3s;
 
   &:hover {
@@ -20,6 +19,7 @@ export const StyledTile = styled.li`
 export const Name = styled.h3`
   font-size: 32px;
   margin: 16px 0 32px;
+  text-align: center;
 `;
 
 export const Information = styled.h4`
@@ -43,7 +43,8 @@ export const Cost = styled.span`
 `;
 
 export const Wrapper = styled.div`
-  margin-bottom: 32px;
+  margin: 32px 0;
+  text-align: center;
 `;
 
 export const CountButtons = styled.div`
