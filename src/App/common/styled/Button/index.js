@@ -8,6 +8,11 @@ const Button = styled.button`
   cursor: pointer;
   transition: transform 0.3s, background-color 0.3s;
 
+  &:disabled {
+    cursor: unset;
+    background: #cdcdcd;
+  }
+
   &:hover {
     transform: scale(1.05);
   }
