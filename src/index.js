@@ -2,11 +2,12 @@ import { StrictMode } from 'react';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import { GlobalStyle } from './GlobalStyle';
 import { Normalize } from 'styled-normalize';
+import { uri } from './apiDetails';
 import ReactDOM from 'react-dom';
 import App from './App/App';
 
 const client = new ApolloClient({
-  uri: 'https://swapi-graphql.netlify.app/.netlify/functions/index',
+  uri: uri,
   cache: new InMemoryCache(),
 });
 
