@@ -3,6 +3,7 @@
 - gh-pages
 - styled-components
 - styled-normalize
+- apollo/client
 
 ## Getting Started with Create React App
 
