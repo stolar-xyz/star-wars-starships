@@ -11,7 +11,7 @@ import {
   Information,
 } from './styled';
 
-const Tile = () => {
+const Tile = ({ name, manufacturers, cost }) => {
   const onFormSubmit = event => {
     event.preventDefault();
   };
@@ -19,16 +19,28 @@ const Tile = () => {
   return (
     <StyledTile>
       <div>
-        <Name>Millennium Falcon</Name>
-        <Information>Manufacturers</Information>
-        <ManufacturersList>
-          <li>Imperial Department of Military</li>
-        </ManufacturersList>
+        <Name>{name}</Name>
+        {manufacturers && (
+          <>
+            <Information>Manufacturers</Information>
+            <ManufacturersList>
+              {manufacturers.map(manufacturer => (
+                <li key={manufacturer}>{manufacturer}</li>
+              ))}
+            </ManufacturersList>
+          </>
+        )}
       </div>
       <div>
         <Wrapper>
-          <Information>Cost</Information>
-          <Cost>100.000.000.000</Cost>
+          {cost ? (
+            <>
+              <Information>Cost</Information>
+              <Cost>{cost}</Cost>
+            </>
+          ) : (
+            <Information>Unavailable</Information>
+          )}
         </Wrapper>
         <form onSubmit={onFormSubmit}>
           <CountButtons>
