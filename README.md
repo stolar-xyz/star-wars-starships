@@ -4,6 +4,7 @@
 - styled-components
 - styled-normalize
 - apollo/client
+- graphql
 
 ## Getting Started with Create React App
 
