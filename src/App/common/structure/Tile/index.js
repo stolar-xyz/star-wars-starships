@@ -44,13 +44,13 @@ const Tile = ({ name, manufacturers, cost }) => {
         </Wrapper>
         <form onSubmit={onFormSubmit}>
           <CountButtons>
-            <CountButton title='Decrease' disabled>
-              -
-            </CountButton>
+            <CountButton title='Decrease'>-</CountButton>
             <Count type='number' min='1' placeholder='Quantity' />
             <CountButton title='Increase'>+</CountButton>
           </CountButtons>
-          <AddCartButton title='Add to shopping cart'>Add to cart</AddCartButton>
+          <AddCartButton title='Add to shopping cart' disabled={!cost}>
+            Add to cart
+          </AddCartButton>
         </form>
       </div>
     </StyledTile>
