@@ -57,11 +57,6 @@ export const CountButton = styled(Button)`
   height: 40px;
   border-radius: 50%;
   font-weight: 700;
-
-  &:disabled {
-    cursor: unset;
-    background: #cdcdcd;
-  }
 `;
 
 export const Count = styled.input`
