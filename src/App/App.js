@@ -10,7 +10,7 @@ const App = () => {
       <Navigation />
       <main>
         <Section>
-          <Subheader>Spaceships</Subheader>
+          <Subheader>Starships</Subheader>
           <List>
             <Tile />
             <Tile />

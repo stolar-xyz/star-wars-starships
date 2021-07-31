@@ -1,8 +1,8 @@
 {
-  "name": "star-wars-spaceships",
+  "name": "star-wars-starships",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://stolar-code.github.io/star-wars-spaceships/",
+  "homepage": "https://stolar-code.github.io/star-wars-starships/",
   "dependencies": {
     "@apollo/client": "^3.4.1",
     "@testing-library/jest-dom": "^5.14.1",
