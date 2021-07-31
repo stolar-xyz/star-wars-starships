@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/star-wars-spaceships/static/js/main.dd15e4a0.chunk.js",
-    "main.js.map": "/star-wars-spaceships/static/js/main.dd15e4a0.chunk.js.map",
-    "runtime-main.js": "/star-wars-spaceships/static/js/runtime-main.7fbc0feb.js",
-    "runtime-main.js.map": "/star-wars-spaceships/static/js/runtime-main.7fbc0feb.js.map",
-    "static/js/2.a6e090c9.chunk.js": "/star-wars-spaceships/static/js/2.a6e090c9.chunk.js",
-    "static/js/2.a6e090c9.chunk.js.map": "/star-wars-spaceships/static/js/2.a6e090c9.chunk.js.map",
-    "index.html": "/star-wars-spaceships/index.html",
-    "static/js/2.a6e090c9.chunk.js.LICENSE.txt": "/star-wars-spaceships/static/js/2.a6e090c9.chunk.js.LICENSE.txt",
-    "static/media/shoppingCart.aa06d5b1.svg": "/star-wars-spaceships/static/media/shoppingCart.aa06d5b1.svg",
-    "static/media/starWarsLogo.e495a946.svg": "/star-wars-spaceships/static/media/starWarsLogo.e495a946.svg",
-    "static/media/stars.bdd06dab.jpg": "/star-wars-spaceships/static/media/stars.bdd06dab.jpg"
+    "main.js": "/star-wars-starships/static/js/main.8fc3dacc.chunk.js",
+    "main.js.map": "/star-wars-starships/static/js/main.8fc3dacc.chunk.js.map",
+    "runtime-main.js": "/star-wars-starships/static/js/runtime-main.b2d517fd.js",
+    "runtime-main.js.map": "/star-wars-starships/static/js/runtime-main.b2d517fd.js.map",
+    "static/js/2.721f3f2e.chunk.js": "/star-wars-starships/static/js/2.721f3f2e.chunk.js",
+    "static/js/2.721f3f2e.chunk.js.map": "/star-wars-starships/static/js/2.721f3f2e.chunk.js.map",
+    "index.html": "/star-wars-starships/index.html",
+    "static/js/2.721f3f2e.chunk.js.LICENSE.txt": "/star-wars-starships/static/js/2.721f3f2e.chunk.js.LICENSE.txt",
+    "static/media/shoppingCart.aa06d5b1.svg": "/star-wars-starships/static/media/shoppingCart.aa06d5b1.svg",
+    "static/media/starWarsLogo.e495a946.svg": "/star-wars-starships/static/media/starWarsLogo.e495a946.svg",
+    "static/media/stars.bdd06dab.jpg": "/star-wars-starships/static/media/stars.bdd06dab.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7fbc0feb.js",
-    "static/js/2.a6e090c9.chunk.js",
-    "static/js/main.dd15e4a0.chunk.js"
+    "static/js/runtime-main.b2d517fd.js",
+    "static/js/2.721f3f2e.chunk.js",
+    "static/js/main.8fc3dacc.chunk.js"
   ]
 }
