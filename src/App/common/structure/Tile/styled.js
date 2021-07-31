@@ -8,7 +8,7 @@ export const StyledTile = styled.li`
   flex-direction: column;
   justify-content: space-between;
   padding: 18px;
-  min-height: 400px;
+  min-height: 425px;
   text-align: center;
   transition: transform 0.3s;
 
