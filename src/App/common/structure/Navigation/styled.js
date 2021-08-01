@@ -20,7 +20,7 @@ export const Logo = styled.img`
   width: 160px;
   height: 80px;
 
-  @media (max-width: ${({ theme }) => theme.tabletMax}px) {
+  @media (max-width: ${({ theme }) => theme.mobileMax}px) {
     width: 140px;
     height: 60px;
   }
@@ -38,7 +38,7 @@ export const ShoppingCart = styled.img`
 
 export const Wrapper = styled.div`
   position: ${({ scrollCart }) => (scrollCart ? 'fixed' : 'absolute')};
-  right: ${({ scrollCart }) => (scrollCart ? '50px' : '25px')};
+  right: ${({ scrollCart }) => (scrollCart ? '40px' : '25px')};
   transition: ${({ scrollCart }) =>
     scrollCart
       ? ' background-color 0.5s, right 0.5s, box-shadow 0.5s'
@@ -52,7 +52,7 @@ export const Wrapper = styled.div`
     scrollCart &&
     css`
       box-shadow: 0px 0px 5px ${({ theme }) => theme.color.element.cartBoxShadow};
-      bottom: 50px;
+      bottom: 40px;
       width: 80px;
       height: 80px;
       display: grid;
