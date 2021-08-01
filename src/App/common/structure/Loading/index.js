@@ -1,7 +1,9 @@
+import { StyledLoading, Loader } from './styled';
+
 const Loading = () => (
-  <div>
-    <span>Loading...</span>
-  </div>
+  <StyledLoading>
+    <Loader />
+  </StyledLoading>
 );
 
 export default Loading;
