@@ -21,7 +21,6 @@ export const Wrapper = styled.div`
   right: ${({ scrollCart }) => (scrollCart ? '50px' : '25px')};
   transition: ${({ scrollCart }) =>
     scrollCart ? ' background-color 0.5s, right 0.5s' : 'right 0.5s'};
-  cursor: pointer;
 
   ${({ scrollCart }) =>
     scrollCart &&
