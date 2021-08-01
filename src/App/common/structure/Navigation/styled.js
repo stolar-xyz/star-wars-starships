@@ -20,7 +20,9 @@ export const Wrapper = styled.div`
   position: ${({ scrollCart }) => (scrollCart ? 'fixed' : 'absolute')};
   right: ${({ scrollCart }) => (scrollCart ? '50px' : '25px')};
   transition: ${({ scrollCart }) =>
-    scrollCart ? ' background-color 0.5s, right 0.5s' : 'right 0.5s'};
+    scrollCart
+      ? ' background-color 0.5s, right 0.5s, box-shadow 0.5s'
+      : 'right 0.5s'};
 
   ${({ scrollCart }) =>
     scrollCart &&
