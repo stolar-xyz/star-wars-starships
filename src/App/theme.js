@@ -27,6 +27,7 @@ export const theme = {
       listBullet: '#ff9f00',
       buttonBoxShadow: '#e4e6f0',
       cartBoxShadow: colors.silver,
+      navigationBorder: colors.silver,
       inputBorder: '#808080',
     },
   },
