@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { totalItemsVar } from '../../../reactiveVariables';
 import {
   AddCartButton,
   Name,
@@ -17,6 +18,11 @@ const Tile = ({ name, manufacturers, cost }) => {
 
   const onFormSubmit = event => {
     event.preventDefault();
+  };
+
+  const onAddCartButtonClick = () => {
+    totalItemsVar(totalItemsVar() + quantity);
+    setQuantity(1);
   };
 
   return (
@@ -59,7 +65,11 @@ const Tile = ({ name, manufacturers, cost }) => {
             />
             <CountButton title='Increase'>+</CountButton>
           </CountButtons>
-          <AddCartButton title='Add to shopping cart' disabled={!cost}>
+          <AddCartButton
+            title='Add to shopping cart'
+            disabled={!cost}
+            onClick={onAddCartButtonClick}
+          >
             Add to cart
           </AddCartButton>
         </form>
