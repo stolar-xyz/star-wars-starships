@@ -8,7 +8,7 @@ export const StyledNavigation = styled.nav`
   padding: 12px 0;
   max-width: 1368px;
   position: relative;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid ${({ theme }) => theme.color.element.navigationBorder};
   color: ${({ theme }) => theme.color.text.primaryText};
 `;
 
