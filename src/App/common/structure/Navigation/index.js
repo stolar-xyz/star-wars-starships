@@ -26,9 +26,9 @@ const Navigation = () => {
       </header>
       <Wrapper scrollCart={scrollCart}>
         <img alt='Shopping cart' src={shoppingCart} width='52' height='52' />
-        {count && (
+        {count >= 1 && (
           <ItemsCounter scrollCart={scrollCart}>
-            {count > 10 ? '+10' : count}
+            {count > 99 ? '+10' : count}
           </ItemsCounter>
         )}
       </Wrapper>
