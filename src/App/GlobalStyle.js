@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import starsBackground from './App/assets/stars.jpg';
+import starsBackground from '../App/assets/stars.jpg';
 
 export const GlobalStyle = createGlobalStyle`
   html {
