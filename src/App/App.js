@@ -1,8 +1,6 @@
 import Navigation from './common/structure/Navigation';
-import Tile from './common/structure/Tile';
-import Subheader from './common/styled/Subheader';
-import List from './common/styled/List';
 import Section from './common/styled/Section';
+import Starships from './features/Starships';
 
 const App = () => {
   return (
@@ -10,18 +8,7 @@ const App = () => {
       <Navigation />
       <main>
         <Section>
-          <Subheader>Starships</Subheader>
-          <List>
-            <Tile />
-            <Tile />
-            <Tile />
-            <Tile />
-            <Tile />
-            <Tile />
-            <Tile />
-            <Tile />
-            <Tile />
-          </List>
+          <Starships />
         </Section>
       </main>
     </>
