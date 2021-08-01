@@ -16,6 +16,26 @@ export const Heading = styled.h1`
   margin: 0;
 `;
 
+export const Logo = styled.img`
+  width: 160px;
+  height: 80px;
+
+  @media (max-width: ${({ theme }) => theme.tabletMax}px) {
+    width: 140px;
+    height: 60px;
+  }
+`;
+
+export const ShoppingCart = styled.img`
+  width: 52px;
+  height: 52px;
+
+  @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+    width: 40px;
+    height: 40px;
+  }
+`;
+
 export const Wrapper = styled.div`
   position: ${({ scrollCart }) => (scrollCart ? 'fixed' : 'absolute')};
   right: ${({ scrollCart }) => (scrollCart ? '50px' : '25px')};

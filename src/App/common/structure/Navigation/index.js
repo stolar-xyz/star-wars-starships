@@ -1,7 +1,14 @@
 import { useEffect, useState } from 'react';
 import { useReactiveVar } from '@apollo/client';
 import { totalItemsVar } from '../../../reactiveVariables';
-import { Heading, ItemsCounter, StyledNavigation, Wrapper } from './styled';
+import {
+  Heading,
+  ItemsCounter,
+  Logo,
+  ShoppingCart,
+  StyledNavigation,
+  Wrapper,
+} from './styled';
 import starWarsLogo from '../../../assets/svgs/starWarsLogo.svg';
 import shoppingCart from '../../../assets/svgs/shoppingCart.svg';
 
@@ -21,11 +28,11 @@ const Navigation = () => {
     <StyledNavigation>
       <header>
         <Heading>
-          <img alt='Star Wars' src={starWarsLogo} width='160' height='80' />
+          <Logo alt='Star Wars' src={starWarsLogo} />
         </Heading>
       </header>
       <Wrapper scrollCart={scrollCart}>
-        <img alt='Shopping cart' src={shoppingCart} width='52' height='52' />
+        <ShoppingCart alt='Shopping cart' src={shoppingCart} />
         {count >= 1 && (
           <ItemsCounter scrollCart={scrollCart}>
             {count > 99 ? '+99' : count}
