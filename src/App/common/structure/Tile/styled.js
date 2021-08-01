@@ -14,18 +14,31 @@ export const StyledTile = styled.li`
   &:hover {
     transform: scale(1.05);
   }
+
+  @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+    min-height: 350px;
+  }
 `;
 
 export const Name = styled.h3`
   font-size: 32px;
   margin: 16px 0 32px;
   text-align: center;
+
+  @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+    font-size: 28px;
+    margin: 12px 0 26px;
+  }
 `;
 
 export const Information = styled.h4`
   font-weight: 400;
   font-size: 20px;
   margin: 0;
+
+  @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+    font-size: 18px;
+  }
 `;
 
 export const ManufacturersList = styled.ul`
@@ -36,10 +49,18 @@ export const ManufacturersList = styled.ul`
   & > li::marker {
     color: ${({ theme }) => theme.color.element.listBullet};
   }
+
+  @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+    font-size: 16px;
+  }
 `;
 
 export const Cost = styled.span`
   font-size: 24px;
+
+  @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+    font-size: 20px;
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -58,6 +79,11 @@ export const CountButton = styled(Button)`
   height: 40px;
   border-radius: 50%;
   font-weight: 700;
+
+  @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+    width: 35px;
+    height: 35px;
+  }
 `;
 
 export const Count = styled.input`

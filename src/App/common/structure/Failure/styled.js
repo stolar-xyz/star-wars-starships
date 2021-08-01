@@ -7,7 +7,12 @@ export const Container = styled.div`
 `;
 
 export const DarthVaderIcon = styled(DarthVader)`
-  margin-bottom: 24px;
+  margin-bottom: 16px;
+
+  @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+    width: 60px;
+    height: 60px;
+  }
 `;
 
 export const Description = styled.p`
@@ -15,4 +20,8 @@ export const Description = styled.p`
   font-size: 22px;
   font-weight: 500;
   line-height: 1.4;
+
+  @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+    font-size: 16px;
+  }
 `;
