@@ -1,13 +1,15 @@
 import Subheader from '../../styled/Subheader';
+import { DarthVaderIcon, Description, Container } from './styled';
 
 const Failure = () => (
-  <div>
+  <Container>
+    <DarthVaderIcon />
     <Subheader>Ooops! Something went wrong...</Subheader>
-    <p>
+    <Description>
       Please check your network connection
       <br /> and try again
-    </p>
-  </div>
+    </Description>
+  </Container>
 );
 
 export default Failure;
