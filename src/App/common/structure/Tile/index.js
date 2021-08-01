@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import {
   AddCartButton,
   Name,
@@ -12,6 +13,8 @@ import {
 } from './styled';
 
 const Tile = ({ name, manufacturers, cost }) => {
+  const [quantity, setQuantity] = useState(1);
+
   const onFormSubmit = event => {
     event.preventDefault();
   };
@@ -45,7 +48,15 @@ const Tile = ({ name, manufacturers, cost }) => {
         <form onSubmit={onFormSubmit}>
           <CountButtons>
             <CountButton title='Decrease'>-</CountButton>
-            <Count type='number' min='1' placeholder='Quantity' />
+            <Count
+              type='number'
+              min='1'
+              placeholder='Quantity'
+              value={quantity}
+              onChange={({ target }) => {
+                setQuantity(target.value);
+              }}
+            />
             <CountButton title='Increase'>+</CountButton>
           </CountButtons>
           <AddCartButton title='Add to shopping cart' disabled={!cost}>
