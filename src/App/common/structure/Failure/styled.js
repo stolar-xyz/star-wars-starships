@@ -11,7 +11,7 @@ export const DarthVaderIcon = styled(DarthVader)`
 `;
 
 export const Description = styled.p`
-  color: #ffffff;
+  color: ${({ theme }) => theme.color.text.primaryText};
   font-size: 22px;
   font-weight: 500;
   line-height: 1.4;

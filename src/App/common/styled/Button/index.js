@@ -2,15 +2,14 @@ import styled from 'styled-components';
 
 const Button = styled.button`
   border: none;
-  background: #fcd420;
-  color: #18181b;
-  box-shadow: 0px 2px 12px #e4e6f0;
+  background: ${({ theme }) => theme.color.background.tertiaryBackground};
+  box-shadow: 0px 2px 12px ${({ theme }) => theme.color.element.buttonBoxShadow};
   cursor: pointer;
   transition: transform 0.3s, background-color 0.3s;
 
   &:disabled {
     cursor: unset;
-    background: #cdcdcd;
+    background: ${({ theme }) => theme.color.background.disabledBackground};
   }
 
   &:hover {

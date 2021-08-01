@@ -17,6 +17,7 @@ export const Loader = styled.div`
   height: 15vh;
   border-radius: 50%;
   border: 5px solid;
-  border-color: #fcd420 transparent;
+  border-color: ${({ theme }) => theme.color.background.tertiaryBackground}
+    transparent;
   animation: ${spin} 1s ease-in-out infinite;
 `;

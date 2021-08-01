@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import Button from '../../styled/Button';
 
 export const StyledTile = styled.li`
-  background: #ffffff;
+  background: ${({ theme }) => theme.color.background.primaryBackground};
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@ export const ManufacturersList = styled.ul`
   list-style: inside;
 
   & > li::marker {
-    color: #ff9f00;
+    color: ${({ theme }) => theme.color.element.listBullet};
   }
 `;
 
@@ -62,7 +62,7 @@ export const CountButton = styled(Button)`
 
 export const Count = styled.input`
   width: 80px;
-  border: 1px solid #808080;
+  border: 1px solid ${({ theme }) => theme.color.element.inputBorder};
   border-radius: 5px;
   text-align: center;
   -moz-appearance: textfield;
