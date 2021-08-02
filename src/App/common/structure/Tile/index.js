@@ -18,10 +18,7 @@ const Tile = ({ name, manufacturers, cost }) => {
 
   const onFormSubmit = event => {
     event.preventDefault();
-  };
-
-  const onAddCartButtonClick = () => {
-    totalItemsVar(totalItemsVar() + quantity);
+    totalItemsVar(totalItemsVar() + +quantity);
     setQuantity(1);
   };
 
@@ -83,11 +80,7 @@ const Tile = ({ name, manufacturers, cost }) => {
               +
             </CountButton>
           </CountButtons>
-          <AddCartButton
-            title='Add to shopping cart'
-            disabled={!cost}
-            onClick={onAddCartButtonClick}
-          >
+          <AddCartButton title='Add to shopping cart' disabled={!cost}>
             Add to cart
           </AddCartButton>
         </form>
