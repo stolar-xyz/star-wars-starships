@@ -7,9 +7,9 @@ import List from '../common/styled/List';
 import Subheader from '../common/styled/Subheader';
 
 const Starships = () => {
-  const spaceshipsQuery = gql(query);
+  const starshipsQuery = gql(query);
 
-  const { data, loading, error } = useQuery(spaceshipsQuery, {
+  const { data, loading, error } = useQuery(starshipsQuery, {
     variables: {
       items: 36,
     },
