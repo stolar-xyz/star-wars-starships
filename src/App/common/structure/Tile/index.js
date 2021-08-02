@@ -54,6 +54,7 @@ const Tile = ({ name, manufacturers, cost }) => {
         <form onSubmit={onFormSubmit}>
           <CountButtons>
             <CountButton
+              type='button'
               title='Decrease'
               disabled={quantity <= 1}
               onClick={() => {
@@ -65,6 +66,7 @@ const Tile = ({ name, manufacturers, cost }) => {
             <Count
               type='number'
               min='1'
+              required
               placeholder='Quantity'
               value={quantity}
               onChange={({ target }) => {
@@ -72,6 +74,7 @@ const Tile = ({ name, manufacturers, cost }) => {
               }}
             />
             <CountButton
+              type='button'
               title='Increase'
               onClick={() => {
                 setQuantity(+quantity + 1);
