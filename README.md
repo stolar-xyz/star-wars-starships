@@ -1,14 +1,42 @@
-# Libraries Used
+# Star Wars Starships
 
+## Table of contents
+
+- [Demo](https://stolar-code.github.io/star-wars-starships/) - link to page
+- [General informations](#general-informations)
+- [Technologies](#technologies)
+- [Features](#features)
+- [Lighthouse stats](#lighthouse-stats)
+- [Available Scripts](#available-scripts)
+
+## General informations
+
+A simple app that allows the user to complete an order for starship models from the Star Wars movie.
+The number of added models will be displayed next to the cart.
+The data about the starship models was taken from this [API](https://swapi.apis.guru/).
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Technologies
+
+Project is created with:
+
+- create-react-app
 - gh-pages
 - styled-components
 - styled-normalize
 - apollo/client
 - graphql
 
-## Getting Started with Create React App
+## Features
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- add a quantity of starship models to your cart and display the total count
+- increase/decrease the quantity of starships by clicking on the appropriate button
+- display the cart in the bottom right corner after scrolling down
+
+## Lighthouse stats
+
+![lighthouse stats](https://i.ibb.co/C6Q9pLZ/lighthouse-Stats.png 'lighthouse stats')
 
 ## Available Scripts
 
@@ -21,11 +49,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
