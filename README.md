@@ -1,8 +1,10 @@
 # Star Wars Starships
 
+Solution of the recruitment task. \
+[Demo](https://stolar-code.github.io/star-wars-starships/)
+
 ## Table of contents
 
-- [Demo](https://stolar-code.github.io/star-wars-starships/) - link to page
 - [General informations](#general-informations)
 - [Technologies](#technologies)
 - [Features](#features)
@@ -37,6 +39,13 @@ Project is created with:
 ## Lighthouse stats
 
 ![lighthouse stats](https://i.ibb.co/C6Q9pLZ/lighthouse-Stats.png 'lighthouse stats')
+
+| Category       | Score |
+| -------------- | ----- |
+| Performance    | 99    |
+| Accessibility  | 100   |
+| Best Practices | 100   |
+| SEO            | 100   |
 
 ## Available Scripts
 
