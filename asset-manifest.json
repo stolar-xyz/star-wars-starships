@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/star-wars-starships/static/js/main.6c11a8a1.chunk.js",
-    "main.js.map": "/star-wars-starships/static/js/main.6c11a8a1.chunk.js.map",
+    "main.js": "/star-wars-starships/static/js/main.de30372e.chunk.js",
+    "main.js.map": "/star-wars-starships/static/js/main.de30372e.chunk.js.map",
     "runtime-main.js": "/star-wars-starships/static/js/runtime-main.b2d517fd.js",
     "runtime-main.js.map": "/star-wars-starships/static/js/runtime-main.b2d517fd.js.map",
     "static/js/2.6c47444d.chunk.js": "/star-wars-starships/static/js/2.6c47444d.chunk.js",
@@ -16,6 +16,6 @@
   "entrypoints": [
     "static/js/runtime-main.b2d517fd.js",
     "static/js/2.6c47444d.chunk.js",
-    "static/js/main.6c11a8a1.chunk.js"
+    "static/js/main.de30372e.chunk.js"
   ]
 }
