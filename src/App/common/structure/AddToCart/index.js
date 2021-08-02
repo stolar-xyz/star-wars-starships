@@ -44,7 +44,7 @@ const AddToCart = ({ cost }) => {
           +
         </CountButton>
       </Wrapper>
-      <AddCartButton title='Add to shopping cart' disabled={!cost}>
+      <AddCartButton title='Add to cart' disabled={!cost}>
         Add to cart
       </AddCartButton>
     </form>

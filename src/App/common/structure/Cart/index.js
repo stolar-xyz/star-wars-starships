@@ -18,7 +18,7 @@ const Cart = () => {
 
   return (
     <Wrapper scrollCart={scrollCart}>
-      <StyledCart alt='Shopping cart' src={cart} />
+      <StyledCart alt='Cart' src={cart} />
       {count >= 1 && (
         <ItemsCounter scrollCart={scrollCart}>
           {count > 99 ? '+99' : count}
