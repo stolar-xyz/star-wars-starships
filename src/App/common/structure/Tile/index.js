@@ -53,7 +53,15 @@ const Tile = ({ name, manufacturers, cost }) => {
         </Wrapper>
         <form onSubmit={onFormSubmit}>
           <CountButtons>
-            <CountButton title='Decrease'>-</CountButton>
+            <CountButton
+              title='Decrease'
+              disabled={quantity <= 1}
+              onClick={() => {
+                setQuantity(+quantity - 1);
+              }}
+            >
+              -
+            </CountButton>
             <Count
               type='number'
               min='1'
@@ -63,7 +71,14 @@ const Tile = ({ name, manufacturers, cost }) => {
                 setQuantity(target.value);
               }}
             />
-            <CountButton title='Increase'>+</CountButton>
+            <CountButton
+              title='Increase'
+              onClick={() => {
+                setQuantity(+quantity + 1);
+              }}
+            >
+              +
+            </CountButton>
           </CountButtons>
           <AddCartButton
             title='Add to shopping cart'
