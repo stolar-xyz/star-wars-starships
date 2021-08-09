@@ -35,6 +35,7 @@ Project is created with:
 - add a quantity of starship models to your cart and display the total count
 - increase/decrease the quantity of starships by clicking on the appropriate button
 - display the cart in the bottom right corner after scrolling down
+- a button that displays all starships when clicked on
 
 ## Lighthouse stats
 
