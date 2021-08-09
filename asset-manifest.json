@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/star-wars-starships/static/js/main.eda1b77e.chunk.js",
-    "main.js.map": "/star-wars-starships/static/js/main.eda1b77e.chunk.js.map",
+    "main.js": "/star-wars-starships/static/js/main.f132a656.chunk.js",
+    "main.js.map": "/star-wars-starships/static/js/main.f132a656.chunk.js.map",
     "runtime-main.js": "/star-wars-starships/static/js/runtime-main.b2d517fd.js",
     "runtime-main.js.map": "/star-wars-starships/static/js/runtime-main.b2d517fd.js.map",
-    "static/js/2.d0001959.chunk.js": "/star-wars-starships/static/js/2.d0001959.chunk.js",
-    "static/js/2.d0001959.chunk.js.map": "/star-wars-starships/static/js/2.d0001959.chunk.js.map",
+    "static/js/2.39e45a56.chunk.js": "/star-wars-starships/static/js/2.39e45a56.chunk.js",
+    "static/js/2.39e45a56.chunk.js.map": "/star-wars-starships/static/js/2.39e45a56.chunk.js.map",
     "index.html": "/star-wars-starships/index.html",
-    "static/js/2.d0001959.chunk.js.LICENSE.txt": "/star-wars-starships/static/js/2.d0001959.chunk.js.LICENSE.txt",
+    "static/js/2.39e45a56.chunk.js.LICENSE.txt": "/star-wars-starships/static/js/2.39e45a56.chunk.js.LICENSE.txt",
     "static/media/cart.aa06d5b1.svg": "/star-wars-starships/static/media/cart.aa06d5b1.svg",
     "static/media/darthVader.ba07594d.svg": "/star-wars-starships/static/media/darthVader.ba07594d.svg",
     "static/media/starWarsLogo.4bd832ce.svg": "/star-wars-starships/static/media/starWarsLogo.4bd832ce.svg",
@@ -15,7 +15,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b2d517fd.js",
-    "static/js/2.d0001959.chunk.js",
-    "static/js/main.eda1b77e.chunk.js"
+    "static/js/2.39e45a56.chunk.js",
+    "static/js/main.f132a656.chunk.js"
   ]
 }
