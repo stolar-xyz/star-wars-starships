@@ -6,6 +6,7 @@ export const query = `
         name
         manufacturers
         costInCredits
+        id
       }
     }
   }
