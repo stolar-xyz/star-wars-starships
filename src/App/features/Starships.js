@@ -28,9 +28,9 @@ const Starships = () => {
       <Subheader>Starships</Subheader>
       <List>
         {data.allStarships.starships.map(
-          ({ name, manufacturers, costInCredits }) => (
+          ({ name, manufacturers, costInCredits, id }) => (
             <Tile
-              key={name}
+              key={id}
               name={name}
               manufacturers={manufacturers}
               cost={costInCredits}
