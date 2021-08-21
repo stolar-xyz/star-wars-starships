@@ -1,4 +1,4 @@
-export const uri = 'https://swapi.apis.guru/';
+export const uri = 'https://swapi-graphql.netlify.app/.netlify/functions/index';
 export const query = `
   query GetStarships($items: Int!) {
     allStarships(first: $items) {

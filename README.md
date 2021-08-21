@@ -15,7 +15,7 @@ Solution of the recruitment task. \
 
 A simple app that allows the user to complete an order for starship models from the Star Wars movie.
 The number of added models will be displayed next to the cart.
-The data about the starship models was taken from this [API](https://swapi.apis.guru/).
+The data about the starship models was taken from this [API](https://swapi-graphql.netlify.app/.netlify/functions/index).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
