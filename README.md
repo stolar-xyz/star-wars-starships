@@ -1,7 +1,7 @@
 # Star Wars Starships
 
 Solution of the recruitment task. \
-[Demo](https://stolar-code.github.io/star-wars-starships/) \
+[Demo](https://stolar-xyz.github.io/star-wars-starships/) \
 [Graphiql](https://graphql.org/swapi-graphql)
 
 ## Table of contents
